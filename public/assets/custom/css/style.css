@@ -1,0 +1,84 @@
+/* Font dan ukuran dasar */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 10px;
+    padding-right: 30px; /* Tambahkan padding kanan */
+}
+
+.header, .footer {
+    width: 100%;
+    text-align: center;
+}
+
+/* Kompres padding tabel */
+.header-table, .content-table, .footer-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.header-table td, .content-table th, .content-table td, .footer-table td {
+    border: 1px solid black;
+    padding: 2px;
+    margin: 0;
+}
+
+/* Hilangkan page break otomatis */
+@page {
+    margin: 4px; /* Atur margin halaman secara umum */
+    margin-right: 25px; /* Margin kanan khusus */
+}
+
+.header-table {
+    margin-bottom: 5px;
+}
+
+/* Font */
+.header-title {
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.header-destination {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.faktur-content {
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.content-content-table {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.content-table th {
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.footer-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+}
